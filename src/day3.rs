@@ -54,5 +54,5 @@ pub fn run() {
         .map(|item| get_priority(item))
         .sum::<u32>();
 
-    println!("Part 1: {}", part2);
+    println!("Part 2: {}", part2);
 }
